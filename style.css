@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color: #525E75;
+  }
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 2.5rem;
+    color: #F1DDBF;
+  }
+
+h2 {
+    font-family: 'Press Start 2P';
+    font-size: 1.5rem;
+    margin:  3%;
+    color: #F1DDBF;
+  }
+
+p {
+    font-family: 'Press Start 2P';
+    font-size: 1rem;
+    color: #F3C5C5;
+    text-align: left;
+    padding-left: 200px;;
+  }
+ul {
+    font-family: 'Press Start 2P';
+    font-size: .8rem;
+    color: #F3C5C5;
+    text-align: left;
+    padding-left: 220px
+  }
+
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto; 
+  }
+  
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: #990000;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: #BB6464;
+  }
+  
+  .green {
+    background-color: #A2B38B;
+  }
+  
+  .blue {
+    background-color: #9ADCFF;
+  }
+  
+  .yellow {
+    background-color: #FFF89A;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    transition-timing-function: linear;
+  }
